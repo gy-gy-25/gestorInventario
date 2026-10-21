@@ -1,0 +1,12 @@
+.table-view .table-row-cell::selection {
+    -fx-background-color: #3498db !important;
+}
+
+.table-view .table-row-cell::selection .text {
+    -fx-fill: white !important;
+}
+
+.table-view:focus .table-row-cell::selection {
+    -fx-background-color: #3498db !important;
+    -fx-table-cell-border-color: #2980b9 !important;
+}

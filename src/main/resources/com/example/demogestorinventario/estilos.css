@@ -1,12 +1,97 @@
-.table-view .table-row-cell::selection {
-    -fx-background-color: #3498db !important;
+#btnNuevo {
+    -fx-background-color: #3498db;
+}
+#btnNuevo:hover {
+    -fx-background-color: #2980b9;
+}
+#btnAnadir {
+    -fx-background-color: #2ecc71;
+}
+#btnAnadir:hover {
+    -fx-background-color: #27ae60;
+}
+#btnEliminar {
+    -fx-background-color: #e74c3c;
 }
 
-.table-view .table-row-cell::selection .text {
-    -fx-fill: white !important;
+#btnEliminar:hover {
+    -fx-background-color: #c0392b;
 }
 
-.table-view:focus .table-row-cell::selection {
-    -fx-background-color: #3498db !important;
-    -fx-table-cell-border-color: #2980b9 !important;
+.root {
+    -fx-background-color: #ecf0f1;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+#panel-form {
+    -fx-background-color: #d0d0d0;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5px;
+    -fx-padding: 15px;
+    -fx-background-radius: 5px;
+}
+
+.text-field:focused {
+    -fx-border-color: #3498db;
+    -fx-border-width: 3px;
+}
+
+
+#vbox-buttons {
+    -fx-background-radius: 10px;
+    -fx-background-color: #d0d0d0;
+    -fx-padding: 10px;
+}
+
+#vbox-table {
+    -fx-background-radius: 10px;
+    -fx-background-color: #d0d0d0;
+    -fx-padding: 10px;
+}
+
+#hbox-seleccionado {
+    -fx-background-radius: 10px;
+    -fx-background-color: #d0d0d0;
+    -fx-padding: 10px;
+}
+
+#hbox-title {
+    -fx-background-radius: 10px;
+    -fx-background-color: #131e4b;
+    -fx-padding: 10px;
+}
+
+#title {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-font: Bodoni MT;
+}
+
+#hbox-title .label {
+    -fx-text-fill: white;
+}
+
+#panel-form #title2 {
+    -fx-text-fill: #04548d;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-background-color: #7cc7fc;
+    -fx-border-radius: 10px;
+}
+
+#hbox-datos {
+    -fx-background-radius: 5px;
+    -fx-background-color: #7cc7fc;
+}
+
+#hbox-datos .label {
+    -fx-text-fill: #015187;
+    -fx-font-weight: bold;
 }
